@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+#logo img{
+   padding-top: 8px; 
+   height: 18px;
+
+}
+#register{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#register ul{
+    padding-top: 10px;
+}
+#register button{
+    background-color: #4CAF4F;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 120px;
+    background-color: #f5f7fa;
+}
+#lesson{
+    font-size: 80px;
+    font-weight: bold;
+}
+#from{
+    font-size: 80px;
+    color: #4CAF4F;
+    font-weight: bold;
+}
+#para{
+    font-size: 15px;
+    color: grey;
+}
+
+.part1 button{
+    background-color: #4CAF4F;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+}
+#home2{
+    padding: 20px 120px;
+    text-align:center ;
+}
+#home2 p{
+    font-size: 15px;
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#home2 #logo2{
+    display: flex;
+    justify-content: space-between;
+}
+#home3{
+    text-align: center;
+    padding: 20px 120px;
+}
+#home3 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: gray;
+}
+#group{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+#home4{
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+#unseen{
+    padding-top: 40px;
+}
+#unseen p{
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#unseen button{
+    background-color: #4CAF4F;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+}
+#home5{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f7fa;
+    padding: 20px 120px; 
+}
+.help{
+    padding-top: 50px;
+}
+#its{
+    color:  #4CAF4F;
+}
+.help p{
+    padding-top: 15px;
+}
+#help2{
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+    padding-right: 150px;
+}
+.members p{
+    color: gray;
+}
+#home6{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px; 
+}
+.how{
+   padding-top: 70px;
+}
+.how p{
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.how button{
+    background-color: #4CAF4F;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+}
+#home7{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+    gap: 40px;
+}
+#home7 img{
+    height: 250px;
+    border-radius: 10px;
+}
+#home7 h3{
+    color: #4CAF4F;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+#home7 p{
+    color: gray;
+}
+#home7 #logoTim{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#logoTim img{
+    height: 35px;
+}
+#logoTim h4{
+    color: #4CAF4F;
+    padding-top: 8px;
+    gap: 10px;
+}
+#meet{
+    display: none;
+}
+#home8{
+    padding: 20px 120px;
+    text-align: center;
+}
+#home8 p{
+    color: gray;
+}
+#slider{
+    display: flex;
+    justify-content: space-between;
+}
+#slider img{
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+}
+#slider .card{
+    /* height: 240px;
+    width: 200px;
+    background-color: rgb(130, 202, 238);
+    border-radius: 10px; */ 
+}
+.details{
+   height: 240px;
+    width: 200px;
+    background-color: rgb(130, 202, 238);
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+
+@media screen and (max-width:450px){
+    nav{
+        padding: 10px 30px;
+    }
+    #register{
+        gap: 10px;
+    }
+     #register {
+        display: none;
+    }
+    #home{
+        flex-direction: column-reverse;
+        padding: 10px 30px;
+        text-align: center;
+    }
+    #lesson{
+    font-size: 50px;
+    }
+    #from{
+    font-size: 50px;
+    }
+    #home2{
+    padding: 10px 30px;
+    }
+    #home2 #logo2 img{
+        height: 40px;
+        width: 40px;
+    }
+    #home3{
+    padding: 10px 30px;
+    }
+    #group{
+        flex-direction: column;
+    }
+    .groups{
+        padding: 0px 50px;
+    }
+    #home4{
+        padding: 10px 30px;
+        flex-direction: column;
+    }
+    #home5{
+        padding: 10px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    #help2{
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+    #home6{
+        padding: 10px 30px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    #home7{
+        padding: 10px 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #home7 img{
+    height: 250px;
+    width: 250px;
+    }
+    .tim #logoTim{
+        
+        align-items: center;
+    }
+    .tim #logoTim img{
+        height: 20px;
+        width: 20px;
+       
+    }
+    #logoTim h4{
+        display: none;
+    }
+    #meet{
+        display: flex;
+        color: #4CAF4F;
+        padding-top: 8px;
+        gap: 10px;
+    }
+}
