@@ -22,6 +22,7 @@ nav{
 #register ul{
     padding-top: 10px;
 }
+
 #register button{
     background-color: #4CAF4F;
     border: none;
@@ -31,7 +32,7 @@ nav{
     font-size: 15px;
 }
 #home{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     gap: 20px;
     padding: 10px 120px;
@@ -43,6 +44,7 @@ nav{
 }
 #from{
     font-size: 80px;
+    
     color: #4CAF4F;
     font-weight: bold;
 }
@@ -193,6 +195,10 @@ nav{
 }
 #home8 p{
     color: gray;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #slider{
     display: flex;
@@ -201,20 +207,80 @@ nav{
 #slider img{
     height: 300px;
     border-radius: 10px;
+   
+}
+.card{
     position: relative;
 }
-#slider .card{
-    /* height: 240px;
-    width: 200px;
-    background-color: rgb(130, 202, 238);
-    border-radius: 10px; */ 
-}
-.details{
-   height: 240px;
-    width: 200px;
-    background-color: rgb(130, 202, 238);
+.card .details{
+    height: 140px;
+    width: 250px;
+    box-shadow: 0px 8px 10px #aaaaab;
+    background-color: #F5F7FA;
     border-radius: 10px;
     position: absolute;
+    top: 200px;
+    left: 68px;
+    
+} 
+#pre-footer{
+    text-align:center ;
+    padding: 20px 120px;
+} 
+#pre-footer p{
+    font-size: 65px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+#pre-footer button{
+    background-color: #4CAF4F;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+}
+#footer{
+    background-color:#263238;
+    color: white;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer p{
+    padding-top: 20px;
+}
+#link #insta{
+    height: 25PX ;
+    width: 25PX;
+    background-color: #515B60;
+    border-radius: 50%;
+    justify-self: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+#footer #link{
+    padding-top: 30px;
+    gap: 20px;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    padding-right: 70px;
+}
+.div2 p{
+    font-size: 13px;
+}
+.company h4{
+    padding-bottom: 20px;
+}
+#mail{
+    background-color: #515B60;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 25px;
 }
 
 
@@ -281,17 +347,15 @@ nav{
         align-items: center;
     }
     #home7 img{
-    height: 250px;
-    width: 250px;
+        height: 250px;
+        width: 250px;
     }
     .tim #logoTim{
-        
         align-items: center;
     }
     .tim #logoTim img{
         height: 20px;
         width: 20px;
-       
     }
     #logoTim h4{
         display: none;
@@ -301,5 +365,41 @@ nav{
         color: #4CAF4F;
         padding-top: 8px;
         gap: 10px;
+    }
+    #home8{
+        padding: 10px 30px;
+        align-items: center;
+    }
+    #slider{
+        flex-direction: column;
+    }
+    #pre-footer{
+        padding: 10px 30px;
+    }
+    #pre-footer p{
+        font-size: 38px;
+    }
+    #footer{
+        padding: 10px 30px; 
+        flex-direction: column-reverse;   
+        text-align: center;  
+    }
+    
+    #slider img{
+    height: 250px;
+    padding-bottom: 80px;
+    }
+   .card .details{
+    top: 220px;
+    left: 95px;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    }
+    .company{
+        display: none;
+    }
+    .card .details h4{
+        padding-top: 15px;
     }
 }
