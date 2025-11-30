@@ -43,7 +43,7 @@ const Main = () => {
         </div> 
        ):(
       
-        
+       <>  
         <div className='my-12 mx-0 text-6xl font-semibold p-5'>
           <p> <span className='bg-clip-text text-transparent bg-[linear-gradient(56deg,#4b90ff,#ff5546)]'>Hello,Dibya...</span></p>
           <p className='text-gray-400'>How can I help you today ?</p>
@@ -72,6 +72,7 @@ const Main = () => {
             
           </div>
         </div>
+        </>
         )}
 
         {/* Type Query Prompt */}
@@ -100,6 +101,7 @@ const Main = () => {
       </div>
 
     </div>
+  
   )
 }
 
